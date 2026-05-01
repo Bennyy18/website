@@ -1,3 +1,6 @@
+*{
+    font-family: poppins;
+}
 /*Off-screen-menu*/
 .off-screen-menu {
     background-color: rgb(34, 37, 49);
@@ -103,4 +106,127 @@ color: black;
 margin: 0px;
 padding-left: 200px;
 font-size: 300%;
+}
+
+@media  screen and ( min-width: 48px) and (max-width: 78px) {
+    body{
+        background-color: red;
+
+    }
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Company_profile h1 {
+    color: rgb(235, 180, 205);
+    padding-left: 0px;
+    font-weight: bold;
+
+}
+.Company_profile #pp1 {
+    background-color: white;
+    font-size: 20px;
+    padding: 50px
+}
+.us {
+    width: 100px;
+    height: 200px;
+}
+.me {
+    width: auto;
+    height:auto;
+    
+}
+/*working with the grid*/
+/* .grid_container {
+    display: grid;
+    /*grid-template-colums:200px 200px 200px; */
+    /* grid-ttemplate-rows: 200px 200px200px 200px; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid: auto;
+    gap: 1em;
+
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+
+}
+/* .item {
+    height: 200px;
+    width: 200px;
+    padding: 2em; */
+    /* background-color: var(--[primary color]);
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 10px; */
+/* } */
+
+.member:hover {
+  background: linear-gradient(#b0b0b1, #c7c7c7);
+  color: white;
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 30px;
+    padding: 20px;
+}
+.member { 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+.member h4 { 
+    margin-top: 10px;
+}
+.member p {
+    font-size: 14px;
+    color: #555;
+}
+.image-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.team-card h3 {
+    margin-top: 15px;
+}
+.team-card p {
+    margin: 8px;
+}
+.team-card {
+    border: 2px solid red;
+}
+
+.member {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.member:hover p {
+  color: white;
 }
